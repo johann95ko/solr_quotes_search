@@ -49,3 +49,12 @@ Add `sort=likes%20desc` to url parameter
 
 ## Sort likes ascending:
 Add `sort=likes%20asc` to url parameter
+
+# Important files
+Data Config File: `/server/solr/quotes/conf/data-config.xml`
+Schema File: `/server/solr/quotes/conf/schema.xml`
+Solr Config File: `/server/solr/quotes/conf/solrconfig.xml`
+Quotes Data File:`/server/solr/quotes/input/quotes_final.xml`
+
+# Note
+- Whenever schema file is updated, remember to delete managed-schema file

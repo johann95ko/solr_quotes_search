@@ -481,3 +481,12 @@
 	at java.base/java.lang.Thread.run(Thread.java:830)
 
 2020-03-12 13:54:52.936 INFO  (qtp1319483139-21) [   x:quotes] o.a.s.c.S.Request [quotes]  webapp=/solr path=/select params={q=yourself&df=all&sort=likes+desc&wt=json&_=1584020657517} status=400 QTime=1
+2020-03-12 14:02:55.285 INFO  (qtp1319483139-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1584020657288} status=0 QTime=0
+2020-03-12 14:02:55.304 INFO  (qtp1319483139-25) [   x:quotes] o.a.s.c.S.Request [quotes]  webapp=/solr path=/replication params={wt=json&command=details&_=1584021775268} status=0 QTime=7
+2020-03-12 14:02:55.314 INFO  (qtp1319483139-21) [   x:quotes] o.a.s.c.S.Request [quotes]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1584020657289&ts=1584020657289} status=503 QTime=2
+2020-03-12 14:02:55.317 INFO  (qtp1319483139-20) [   x:quotes] o.a.s.c.S.Request [quotes]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1584021775266} status=0 QTime=23
+2020-03-12 14:02:55.384 INFO  (qtp1319483139-24) [   x:quotes] o.a.s.c.S.Request [quotes]  webapp=/solr path=/admin/system params={wt=json&_=1584021775267} status=0 QTime=65
+2020-03-12 14:02:55.385 INFO  (qtp1319483139-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1584020657289} status=0 QTime=87
+2020-03-12 14:08:13.027 INFO  (qtp1319483139-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1584020657288} status=0 QTime=0
+2020-03-12 14:08:13.027 INFO  (qtp1319483139-22) [   x:quotes] o.a.s.c.S.Request [quotes]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1584021775266} status=0 QTime=2
+2020-03-12 14:08:13.092 INFO  (qtp1319483139-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1584020657289} status=0 QTime=67
