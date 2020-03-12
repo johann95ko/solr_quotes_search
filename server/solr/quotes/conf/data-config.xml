@@ -1,0 +1,20 @@
+<dataConfig>
+    <dataSource type="FileDataSource" encoding="UTF-8" />
+    <document>
+        <entity name="page"
+                processor="XPathEntityProcessor"
+                stream="true"
+                forEach="/items/item/"
+                url="solr/quotes/input/quotes_final.xml"
+                transformer="RegexTransformer,DateFormatTransformer">
+
+                <field column="id" xpath="/items/item/id" />
+                <field column="quote" xpath="/items/item/quote" />
+                <field column="image" xpath="/items/item/image" />
+                <field column="author" xpath="/items/item/author" />
+                <field column="tag" xpath="/items/item/tag" />
+                <field column="likes" xpath="/items/item/likes" />
+
+        </entity>
+    </document>
+</dataConfig>
