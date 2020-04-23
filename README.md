@@ -1,6 +1,10 @@
 # Solr Goodread Quotes Search Tool
 This project is a Solr-lucene implementation for a search tool that returns Goodread quotes.
 
+# Set up
+1. Download Solr
+2. Replace `\server` folder in your installation with `\server` from this repository
+
 # To run
 ## For Windows:
 1. Run `bin\solr start` in project directory
